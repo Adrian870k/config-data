@@ -11,7 +11,7 @@ spring:
           name: Users API Service
 server:
   servlet:
-    context-path: /store/api/v1
+    context-path: /cine/api/v1
   port: 9050
 eureka:
   client:
