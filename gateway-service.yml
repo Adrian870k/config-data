@@ -14,9 +14,9 @@ spring:
           enabled: true
       routes:
         - id: users
-          uri: lb://users
+          uri: lb://users-service
           predicates:
-            - Path=/cine/api/v1/users/**
+            - Path=/cine/api/v1/users-service/**
         - id: movie-service
           uri: lb://movie-service
           predicates:
