@@ -12,7 +12,7 @@ spring:
 server:
   servlet:
     context-path: /cine/api/v1
-  port: 9050
+  port: 9051
 eureka:
   client:
     serviceUrl:
