@@ -6,13 +6,13 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:9020
+        url: http://localhost:9021
         instance:
           name: Users API Service
 server:
   servlet:
     context-path: /cine/api/v1
-  port: 9051
+  port: 9050
 eureka:
   client:
     serviceUrl:
