@@ -6,7 +6,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:9024
+        url: http://localhost:9020
         instance:
           name: Users API Service
 server:
